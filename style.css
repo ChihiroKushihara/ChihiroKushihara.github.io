@@ -1,0 +1,97 @@
+header {
+  background-image: url(後ろ姿.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 80px;
+  text-align: center;
+  padding-top: 300px;
+  line-height: 70px;
+  color: #4682B4;
+}
+
+.container p {
+  text-align: right;
+  padding-top: 245px;
+  color: #FFFFFF;
+}
+
+.btn {
+  text-decoration: none;
+  text-align: center;
+  background: #4682B4;
+  display: block;
+  width: 140px;
+  line-height: 64px;
+  margin: 40px auto 48px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+header p {
+  margin: 0;
+  text-align: center;
+  color: #808080;
+}
+
+body {
+  margin: 0;
+}
+
+section h1 {
+  text-align: center;
+  padding-top: 70px;
+  font-size: 60px;
+  color: #696969;
+}
+
+.content-imgtext {
+  display: flex;
+  padding-bottom: 50px;
+  padding-left: 300px;
+  padding-right: 100px;
+  justify-content: space-between;
+}
+
+.content-imgtext li {
+  list-style: none;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.content-section1 img {
+  width:250px;
+  border-radius: 50%;
+}
+
+.content-活動詳細 {
+  background: #4682B4;
+  background-size: cover;
+  width: 1480px;
+  height:800px;
+}
+
+.content-活動詳細 h1 {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.content-活動詳細 p {
+  text-align: center;
+}
+
+.btn1 {
+  text-decoration: none;
+  text-align: center;
+  background: #696969;
+  display: block;
+  width: 140px;
+  line-height: 64px;
+  margin: 40px auto 210px;
+  font-weight: bold;
+  border-radius: 4px;
+  color: #FFFFFF;
+}
