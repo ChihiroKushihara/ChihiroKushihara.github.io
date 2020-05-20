@@ -1,58 +1,195 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
-  <head>
-    <meta charset="utf-8">
-    <title>Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript"> 
-      var ua = navigator.userAgent;
-      if(ua.indexOf('iPhone') != -1 || ua.indexOf('Android') != -1){
-      //iPhone & Android
-      document.write('<link rel="stylesheet" href="styles_mb.css">');
-      }else{
-      //PC
-      document.write('<link rel="stylesheet" href="styles.css">');
-      }
-      </script>
-    <link rel="stylesheet" href="styles.css"> 
-    <link rel="stylesheet" href="styles_mb.css"> 
-  </head>
-<body>
-  <header>
-    <div class="info">
-      <img src="後ろ姿.jpg">
-      <h1>Portfolio</h1>
-      <p>東京大学在学中/Web系エンジニア志望</p>
-      <a href="#title">Who's ME?</a>
-    </div>
-  </header>
-  <section>
-    <a name="title"></a>
-    <h1>自己紹介</h1>
-    <div class="wrap">
-      <div class="自己紹介img">
-        <img src="自己紹介.jpg">
-      </div>
-      <div class="内容">
-        <ul>
-          <li>名前：櫛原千裕</li>
-          <li>出身：愛知県岡崎市（神奈川県在住）</li>
-          <li>学歴：東京大学工学部建築学科在学中</li>
-          <li>活動：建築学科環境系研究室に所属。Pythonを用いて、<br>熱運用効率化のためのプログラムを作成。</li>
-          <li>その他：応援部吹奏楽団に在籍。トランペットを担当。</li>
-        </ul>
-      </div>
-    </div>
-    <a href="#title1" class="btn">制作実績</a>
-  </section>
-  <section class="実績">
-    <a name="title1"></a>
-    <h1>制作実績</h1>
-    <p>現在(5/1)は実績なし。</p>
-  </section>
-  <footer>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<title>iSara[イサラ]｜バンコクのノマドエンジニア育成講座</title>
+<link rel="stylesheet" href="css/style.css">
 
-  </footer>
+
+<script src="js/script.js"></script>
+<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+</head>
+
+<body>
+	<header class="header-sm">
+		<div class="header-left">
+			<p>バンコクのノマドエンジニア育成講座</p>
+			<img src="images/isaralogo.png">
+		</div>
+		<div class="header-right">
+			<img src="images/form.png">
+			<p>資料請求</p>
+		</div>
+	</header>
+	<header class="header-lg">
+		<div classs="c-container">
+			<div class="header-left-lg">
+				<img src="images/isaralogo.png">
+				<p>バンコクのノマドエンジニア育成講座</p>
+			</div>
+			<div class="btn header-right-lg">
+				<a href="#"><p>お問い合わせ/ 資料請求はこちら</p></a>
+			</div>
+		</div>
+	</header>
+	<div class="top-wrapper" >
+		<div class="mainimg">
+			<img class="mainimg-sm" src="https://isara.life/wp-content/themes/isara_v2/img/mainsp.jpg">
+			<img class="mainimg-lg" src="https://isara.life/wp-content/themes/isara_v2/img/main.jpg">
+		</div>
+		<div class="maintext">
+			<h1>プログラミングで<br>人生の安定を手にいれよう</h1>
+			<img class="wrapper-img" src="images/isaralogolarge.png">
+			<h2>バンコクのノマドエンジニア育成講座<br>iSara[イサラ]</h2>
+		</div>   
+	</div>
+	<div class="inquiry">
+		<div class="c-container">
+			<p class="intro">まずは２０日間で、<br>月１０万円稼げるスキルを手にいれよう。</p>
+			<div class="red" >
+				<p class="red">※受講料金は実質０円です。詳しくは資料請求をどうぞ</p>
+			</div>
+			<div class="btn-sm">
+				<a href="#"><p>お問い合わせ/ 資料請求は<br>こちら</p></a>
+			</div>
+			<div class="btn-lg">
+				<a href="#"><p>お問い合わせ/ 資料請求はこちら</p></a>
+			</div>
+			<div class="entry-sm">
+				<p>第６期生：2019年11月25日 ~ 2019年12月14日<br>
+					＊締め切りました
+				<p>第７期生：2020年2月17日 ~ 2019年3月7日<br>
+					＊締め切りました</p>
+				<p>第8期生：2020年4月〜5月ごろを予定<br>
+					＊資料請求受付中です</p>
+			</div>
+			<div class="entry-lg">
+				<p>第６期生：2019年11月25日 ~ 2019年12月14日
+					＊締め切りました
+				<p>第７期生：2020年2月17日 ~ 2019年3月7日
+					＊締め切りました</p>
+				<p>第8期生：2020年4月〜5月ごろを予定
+					＊資料請求受付中です</p>
+			</div>
+			<ul>
+				<li><div class="btn-twitter"><i class="fab fa-twitter"></i>ツイート</div></li>
+				<li><div class="btn-twitter"><i class="fab fa-twitter"></i>ツイート</div></li>
+				<li><div class="btn-twitter"><i class="fab fa-twitter"></i>ツイート</div></li>
+			</ul>
+		</div>
+	</div>
+	<div class="message">
+		<div class="c1-container">
+			<h1 class="frame-box-001 frame-sm">エンジニアとして<br>本当の自由を手に入れるためには？</h1>
+			<h1 class="frame-box-001 frame-lg">エンジニアとして本当の自由を手に入れるためには？</h1>
+		</div>
+		<div class="message-sm">
+			<p class="text">エンジニア需要の高まりに伴い、<br>
+					プログラミングスクールが増えています。<br>
+					しかしそこでの学習の先は、<br>
+					提携して決められた就職先に就職すること。</p>
+				
+			<p class="text">これで本当にいいのですか？<br>
+					日本人エンジニアはアメリカと較べて<br>
+					給料が格段に低い。</p>
+				
+			<p class="text">その理由がここにあり、<br>
+					エンジニアは自分の給料を<br>
+					コントロールすべきなのです。</p>
+				
+			<p class="text">スキルを身につけたエンジニアは、<br>
+					人生をコントロールすることでより自由に。<br>
+					そこで必要なのが <span class="underline">「稼ぐ力」</span>です。</p>
+		</div>
+		<div class="message-lg">
+			<p class="text">エンジニア需要の高まりに伴い、
+					プログラミングスクールが増えています。<br>
+					しかしそこでの学習の先は、
+					提携して決められた就職先に就職すること。</p>
+				
+			<p class="text">これで本当にいいのですか？<br>
+					日本人エンジニアはアメリカと較べて
+					給料が格段に低い。</p>
+				
+			<p class="text">その理由がここにあり、
+					エンジニアは自分の給料を<br>
+					コントロールすべきなのです。</p>
+				
+			<p class="text">スキルを身につけたエンジニアは、
+					人生をコントロールすることでより自由に。<br>
+					そこで必要なのが <span class="underline">「稼ぐ力」</span>です。</p>
+		</div>
+		<div class="about-btn">
+			<p>ABOUT</p>
+		</div>
+	</div>
+	<div class="about">
+		<div class="c1-container">
+			<h1 class="frame-box-001 about-isara">ノマドエンジニア育成講座<br>iSara[イサラ]とは</h1>
+		</div>
+		<p class="forcus-sm">「 稼ぐこと 」にフォーカスした<br>Webエンジニア育成講座です。</p>
+		<p class="forcus-lg">「 稼ぐこと 」にフォーカスしたWebエンジニア育成講座です。</p>
+		<div class="c2-container">
+			<h2 class="heading-sm">稼げるエンジニアに必要な<br>５つのスキルとは？</h2>
+			<h2 class="heading-lg">稼げるエンジニアに必要な５つのスキルとは？</h2>
+			<div class="skills">
+				<div class="skill">
+					<img src="images/skill.jpg">
+					<p>基礎的な<br>プログラミングスキル</p>
+				</div>
+				<div class="skill">
+					<img src="images/skill.jpg">
+					<p>基礎的な<br>プログラミングスキル</p>
+				</div>
+				<div class="skill">
+					<img src="images/skill.jpg">
+					<p>基礎的な<br>プログラミングスキル</p>
+				</div>
+				<div class="skill">
+					<img src="images/skill.jpg">
+					<p>基礎的な<br>プログラミングスキル</p>
+				</div>
+				<div class="skill">
+					<img src="images/skill.jpg">
+					<p>基礎的な<br>プログラミングスキル</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="basic">
+		<div class="basic-heading">
+			<h1>iSaraで<br class="br-sm">「基本的なプログラミングスキル」は教えません</h1>
+			<p>基礎的なプログラミングスキルは無料で学べる時代。<br class="br-sm">iSaraでは、基礎知識学習は<br class="br-sm">事前課題とチャットサポートのみ。</p>
+		</div>
+		<div class="c3-container">
+			<div class="step-box">
+				<div class="step">
+					<h2>STEP.1</h2>
+				</div>
+				<p>【バンコク渡航前１ヶ月】<br>事前課題で基礎知識を学ぶ</p>
+			</div>
+			<div class="step-box">
+				<div class="step">
+					<h2>STEP.1</h2>
+				</div>
+				<p>【バンコク渡航前１ヶ月】<br>事前課題で基礎知識を学ぶ</p>
+			</div>
+			<div class="step-box">
+				<div class="step">
+					<h2>STEP.1</h2>
+				</div>
+				<p>【バンコク渡航前１ヶ月】<br>事前課題で基礎知識を学ぶ</p>
+			</div>			
+		</div>	
+	</div>
+	<div class="other">
+		スキルアップしてもフリーランスエンジニア
+として食べていくことは難しい。
+フリーランスには プログラミングスキル以外が大切。
+	</div>
 
 </body>
 </html>
